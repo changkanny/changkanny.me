@@ -26,13 +26,13 @@ export function RootLayout({
             <nav className="flex gap-4">
               <a
                 href={lang === "ja" ? "/ja" : "/"}
-                className="hover:text-foreground transition-colors"
+                className="underline underline-offset-2 hover:text-foreground transition-colors"
               >
                 Home
               </a>
               <a
                 href={lang === "ja" ? "/privacy/ja" : "/privacy"}
-                className="hover:text-foreground transition-colors"
+                className="underline underline-offset-2 hover:text-foreground transition-colors"
               >
                 Privacy
               </a>

@@ -15,7 +15,7 @@ export function Home({
         <div className="flex justify-end">
           <a
             href={altLang.href}
-            className="text-base text-muted hover:text-foreground transition-colors"
+            className="text-base text-muted underline underline-offset-2 hover:text-foreground transition-colors"
           >
             {altLang.label}
           </a>
