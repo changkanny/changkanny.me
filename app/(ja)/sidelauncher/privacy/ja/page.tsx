@@ -1,0 +1,74 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "プライバシーポリシー",
+};
+
+export default function PrivacyPolicyJa() {
+  return (
+    <div className="flex flex-1 justify-center px-6 py-16 sm:py-24 font-sans">
+      <main className="w-full max-w-md flex flex-col gap-10">
+        <div className="flex flex-col gap-2">
+          <h1 className="text-4xl font-bold tracking-tight">
+            プライバシーポリシー
+          </h1>
+          <p className="text-base text-muted">
+            最終更新日: 2026年3月22日
+          </p>
+        </div>
+
+        <p className="text-base text-muted">
+          Also available in{" "}
+          <a
+            href="/sidelauncher/privacy"
+            className="text-foreground underline underline-offset-2"
+          >
+            English
+          </a>
+        </p>
+
+        <section className="flex flex-col gap-3">
+          <h2 className="text-lg font-bold">概要</h2>
+          <p className="text-base leading-relaxed text-muted">
+            SideLauncher（以下、本アプリ）のプライバシーポリシーについてご説明します。
+          </p>
+        </section>
+
+        <section className="flex flex-col gap-3">
+          <h2 className="text-lg font-bold">データの収集</h2>
+          <p className="text-base leading-relaxed text-muted">
+            本アプリは個人データを一切収集しません。アプリの設定やデータはすべてお客様のデバイス内にのみ保存されます。
+          </p>
+        </section>
+
+        <section className="flex flex-col gap-3">
+          <h2 className="text-lg font-bold">データの共有</h2>
+          <p className="text-base leading-relaxed text-muted">
+            本アプリは、分析・広告・トラッキング等の第三者サービスを一切使用しておらず、第三者へのデータ共有も行いません。
+          </p>
+        </section>
+
+        <section className="flex flex-col gap-3">
+          <h2 className="text-lg font-bold">ポリシーの変更</h2>
+          <p className="text-base leading-relaxed text-muted">
+            本ポリシーは必要に応じて変更されることがあります。変更があった場合は、本ページにてお知らせします。
+          </p>
+        </section>
+
+        <section className="flex flex-col gap-3">
+          <h2 className="text-lg font-bold">お問い合わせ</h2>
+          <p className="text-base leading-relaxed text-muted">
+            本ポリシーに関するご質問は、
+            <a
+              href="mailto:hi@changkanny.me"
+              className="text-foreground underline underline-offset-2"
+            >
+              hi@changkanny.me
+            </a>
+            までご連絡ください。
+          </p>
+        </section>
+      </main>
+    </div>
+  );
+}
