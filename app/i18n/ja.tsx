@@ -35,7 +35,7 @@ const ja: Locale = {
   works: [
     {
       title: "SideLauncher",
-      tags: ["Software", "iOS", "Swift"],
+      tags: ["App", "iOS", "Swift"],
       description: "サイドボタンからアプリを起動",
       accent: "#999999",
     },
