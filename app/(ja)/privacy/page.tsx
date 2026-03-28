@@ -18,7 +18,7 @@ export default function PrivacyPolicyJa() {
         <p className="text-base text-muted">
           Also available in{" "}
           <a
-            href="/privacy"
+            href="/privacy/en"
             className="text-foreground underline underline-offset-2"
           >
             English

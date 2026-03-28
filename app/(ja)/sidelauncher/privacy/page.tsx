@@ -20,7 +20,7 @@ export default function PrivacyPolicyJa() {
         <p className="text-base text-muted">
           Also available in{" "}
           <a
-            href="/sidelauncher/privacy"
+            href="/sidelauncher/privacy/en"
             className="text-foreground underline underline-offset-2"
           >
             English

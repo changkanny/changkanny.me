@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
 
         <p className="text-base text-muted">
           <a
-            href="/privacy/ja"
+            href="/privacy"
             className="text-foreground underline underline-offset-2"
           >
             日本語版
@@ -95,7 +95,7 @@ export default function PrivacyPolicy() {
         <section className="flex flex-col gap-3">
           <h2 className="text-lg font-bold">External Links</h2>
           <p className="text-base leading-relaxed text-muted">
-            The Site may contains links to external websites. I am not responsible
+            The Site may contain links to external websites. I am not responsible
             for the privacy policies or content of those sites.
           </p>
         </section>
